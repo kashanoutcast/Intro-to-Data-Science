@@ -37,4 +37,4 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
           unique_rows.append(row)
           writer.writerow(row)
 
-print("data written")
+print("Data saved as CSV")
