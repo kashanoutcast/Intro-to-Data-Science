@@ -37,8 +37,4 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8-sig') as file:
           unique_rows.append(row)
           writer.writerow(row)
 
-  for row in unique_rows:
-    print('\t'.join(row))
-
-
 print("data written")
